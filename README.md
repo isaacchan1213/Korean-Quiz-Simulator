@@ -1,6 +1,6 @@
 # Korean Quiz Simulator
 
-Utalizes Google Text-to-Speech API to create a Korean Quiz simulator that reads to you the list of words, and tells you the definition after. 
+Utalizes Google's Text-to-Speech API to create a Korean Quiz simulator that reads to you the list of words, and tells you the definition after. 
 **This is all done via the terminal, so ensure you have a usable Python runner such as Anaconda to use libraries.**
 
 Below is a sample of vocab list you can use:
