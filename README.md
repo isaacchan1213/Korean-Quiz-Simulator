@@ -2,9 +2,23 @@
 
 The Korean Quiz Simulator utilizes Google's Text-to-Speech API to create an interactive quiz that reads out a list of Korean words and provides their definitions. This is a terminal-based application, so ensure you have a Python environment set up, such as Anaconda, to use the required libraries.
 
+## Tech Stack
+
+- **Text-to-Speech**:
+  - [Google Text-to-Speech API](https://cloud.google.com/text-to-speech) - Provides text-to-speech capabilities to read out Korean vocabulary words.
+
+- **Audio Playback**:
+  - [playsound](https://pypi.org/project/playsound/) - A Python library for playing sound files, used to play the generated audio.
+
+- **Text Processing**:
+  - [gtts](https://gtts.readthedocs.io/en/latest/) - A Python library and CLI tool to interface with Google’s Text-to-Speech API.
+
+- **Development Environment**:
+  - [Python](https://www.python.org/) - The programming language used to develop the simulator.
+
 ## Features
 
-- **Text-to-Speech**: Reads out Korean vocabulary words using Google's Text-to-Speech API.
+- **Text-to-Speech**: Reads out Korean vocabulary words.
 - **Definitions**: Provides definitions of the words after they are read.
 - **Terminal-Based**: Operates via the terminal, making it easy to run and use.
 
